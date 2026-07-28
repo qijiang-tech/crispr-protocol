@@ -53,7 +53,7 @@ Hierarchy
      |   1.1 Upload background file              -> BG
      |   1.2 Upload flat-field file              -> FF
      |   1.3 Upload raw data file                -> RAW
-     |   1.4 Correct for flat-field & background -> Corrected = BG + RAW*(FF-BG)
+     |   1.4 Correct for flat-field & background -> Corrected = (RAW-BG) / (FF-BG)
      |   1.5 Download the corrected data         -> writes .xlsx + browser download
      |
   2. Script 2 - Reporter calibration
